@@ -1,0 +1,34 @@
+.Quintria {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: currentColor;
+    margin: 5px 0;
+    transition: transform 0.3s;
+  }
+  
+  .bar1.active {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .bar2.active {
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  
+  .bar3.active {
+    transform: rotate(45deg) translate(8px, -8px);
+  }
+  
+  .bar4.active {
+    transform: rotate(-45deg) translate(8px, 8px);
+  }
+  
+  .bar5.active {
+    display: none; /* Hide the fifth bar when active */
+  }
